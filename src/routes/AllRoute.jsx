@@ -1,12 +1,19 @@
+import React from "react";
+
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   Navigate,
 } from "react-router-dom";
 
 import { Paths } from "./app.js";
+
 import HomePage from "../components/HomePage.jsx";
+
 import Education from "../components/Experience/Education.jsx";
+import WiseSight from "../components/Experience/WiseSight.jsx";
+import Anousith from "../components/Experience/Anousith.jsx";
+
 import OBSHPage from "../components/ProjectEducation/OBSHPage.jsx";
 import HospitalsPage from "../components/ProjectEducation/hospitalsPage.jsx";
 import NetflixPage from "../components/ProjectEducation/NetflixPage.jsx";
@@ -16,15 +23,18 @@ import EatForHealthPage from "../components/ProjectEducation/EatForHealthPage.js
 import FutureTempPage from "../components/ProjectEducation/FutureTempPage.jsx";
 import BuOpenhousePage from "../components/ProjectEducation/BuOpenHousePage.jsx";
 import FinancialDiaryPage from "../components/ProjectEducation/FinancialDiaryPage.jsx";
-import WiseSight from "../components/Experience/WiseSight.jsx";
-import Anousith from "../components/Experience/Anousith.jsx";
- 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Navigate to={Paths.HOME} replace />,
   },
+
+  {
+    path: Paths.HOME,
+    element: <HomePage />,
+  },
+
   {
     path: Paths.EDUCATION,
     element: <Education />,
@@ -32,17 +42,12 @@ const router = createBrowserRouter([
 
   {
     path: Paths.WISESIGHT,
-    element: <WiseSight/>,
+    element: <WiseSight />,
   },
 
   {
     path: Paths.ANOUSITH,
-    element: <Anousith/>,
-  },
-
-  {
-    path: Paths.HOME,
-    element: <HomePage/>,
+    element: <Anousith />,
   },
 
   {
@@ -84,6 +89,7 @@ const router = createBrowserRouter([
     path: Paths.BU_OPEN_HOUSE,
     element: <BuOpenhousePage />,
   },
+
   {
     path: Paths.FUTURE_TEMP,
     element: <FutureTempPage />,
