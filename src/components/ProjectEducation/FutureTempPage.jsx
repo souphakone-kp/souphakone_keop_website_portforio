@@ -23,7 +23,7 @@ function FutureTempPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="future-home">
+      <section className="home" id="future-temp">
         <div className="home-content">
           <h1>FutureTemp Weather Predictor</h1>
           <h4>
@@ -195,7 +195,7 @@ function FutureTempPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#future-home" />
+      <NavBarItem item="#future-temp" />
     </>
   );
 }

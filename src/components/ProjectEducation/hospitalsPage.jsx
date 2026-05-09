@@ -21,7 +21,7 @@ function HospitalsPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="home">
+      <section className="home" id="hospitals">
         <div className="home-content">
           <h1>Veterinary hospitals</h1>
           <h4>
@@ -133,7 +133,7 @@ function HospitalsPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#home" />
+      <NavBarItem item="#hospitals" />
     </>
   );
 }

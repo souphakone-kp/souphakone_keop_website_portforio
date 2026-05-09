@@ -106,7 +106,7 @@ function Education() {
       </header>
 
       {/* HERO SECTION */}
-      <section className="home" id="bu-home">
+      <section className="home" id="education">
         <div className="home-content">
           <h1>{t.education.university}</h1>
           <h4>{t.education.faculty}</h4>
@@ -175,7 +175,7 @@ function Education() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#bu-home" />
+      <NavBarItem item="#education" />
     </>
   );
 }

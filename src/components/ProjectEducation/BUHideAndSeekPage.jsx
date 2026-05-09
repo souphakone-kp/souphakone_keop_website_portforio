@@ -24,7 +24,7 @@ function BUHideAndSeekPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="bu-home">
+      <section className="home" id="bu-hide-and-seek">
         <div className="home-content">
           <h1>BU Hide and Seek</h1>
 
@@ -153,7 +153,7 @@ function BUHideAndSeekPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#bu-home" />
+      <NavBarItem item="#bu-hide-and-seek" />
     </>
   );
 }

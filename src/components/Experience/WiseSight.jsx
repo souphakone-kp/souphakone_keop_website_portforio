@@ -113,7 +113,7 @@ function Intern() {
       </header>
 
       {/* HERO */}
-      <section className="itn-hero">
+      <section className="itn-hero" id="wisesight">
         <div className="itn-hero-bg" />
         <div className="itn-hero-grid" />
         <div className="itn-hero-content">
@@ -328,7 +328,7 @@ function Intern() {
         </div>
       </section>
 
-      <NavBarItem item="#top" />
+      <NavBarItem item="#wisesight" />
     </>
   );
 }

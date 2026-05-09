@@ -27,7 +27,7 @@ function NetflixPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="netflix-home">
+      <section className="home" id="netflix">
         <div className="home-content">
           <h1>NETFLIX Data Project</h1>
           <h4>
@@ -196,7 +196,7 @@ function NetflixPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#netflix-home" />
+      <NavBarItem item="#netflix" />
     </>
   );
 }

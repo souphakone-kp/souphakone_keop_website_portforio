@@ -25,7 +25,7 @@ function MeowFeederPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="meow-home">
+      <section className="home" id="meow-feeder">
         <div className="home-content">
           <h1>Meow Feeder</h1>
           <h4>
@@ -195,7 +195,7 @@ function MeowFeederPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#meow-home" />
+      <NavBarItem item="#meow-feeder" />
     </>
   );
 }

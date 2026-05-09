@@ -27,7 +27,7 @@ function OBSHPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="obsh-home">
+      <section className="home" id="obsh">
         <div className="home-content">
           <h1>OBSH WEBSITE</h1>
           <h4>Providing K-pop products from Big Hit company.</h4>
@@ -163,7 +163,7 @@ function OBSHPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#obsh-home" />
+      <NavBarItem item="#obsh" />
     </>
   );
 }

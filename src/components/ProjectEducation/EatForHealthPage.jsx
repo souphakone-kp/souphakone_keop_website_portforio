@@ -28,7 +28,7 @@ function EatForHealthPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="eat-home">
+      <section className="home" id="eat-for-health">
         <div className="home-content">
           <h1>EAT FOR HEALTH Application</h1>
 
@@ -207,7 +207,7 @@ function EatForHealthPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#eat-home" />
+      <NavBarItem item="#eat-for-health" />
     </>
   );
 }

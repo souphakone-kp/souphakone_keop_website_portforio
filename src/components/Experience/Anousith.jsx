@@ -107,7 +107,7 @@ function Anousith() {
       </header>
 
       {/* ── HERO ───────────────────────────────────────────── */}
-      <section className="ans-hero">
+      <section className="ans-hero" id="anousith">
         <div className="ans-hero-overlay" />
         <div className="ans-hero-content">
           <p className="ans-hero-eyebrow">{a.hero.eyebrow}</p>
@@ -297,7 +297,7 @@ function Anousith() {
         </div>
       </footer>
 
-      <NavBarItem item="#top" />
+      <NavBarItem item="#anousith" />
     </>
   );
 }

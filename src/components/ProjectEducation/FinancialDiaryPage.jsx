@@ -28,7 +28,7 @@ function FinancialDiaryPage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="financial-home">
+      <section className="home" id="financial-diary">
         <div className="home-content">
           <h1>Financial Diary</h1>
           <h4>A Mobile Application for Personal Data Assistant.</h4>
@@ -212,7 +212,7 @@ function FinancialDiaryPage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#financial-home" />
+      <NavBarItem item="#financial-diary" />
     </>
   );
 }

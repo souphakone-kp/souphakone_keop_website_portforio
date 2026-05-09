@@ -162,9 +162,20 @@ function HomePage() {
           {navItems.map(([id, label]) => (
             <a
               key={id}
-              href={`#${id}`}
               className={activeSection === id ? "active" : ""}
-              onClick={() => setMenuOpen(false)}
+              onClick={() => {
+                setMenuOpen(false);
+
+                const el = document.getElementById(id);
+
+                if (el) {
+                  el.scrollIntoView({
+                    behavior: "smooth",
+
+                    block: "start",
+                  });
+                }
+              }}
             >
               {label}
             </a>

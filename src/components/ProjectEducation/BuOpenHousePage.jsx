@@ -26,7 +26,7 @@ function BuOpenhousePage() {
       </header>
 
       {/* HERO */}
-      <section className="home" id="home">
+      <section className="home" id="bu-open-house">
         <div className="home-content">
           <h1>Mini Project Bu OpenHouse</h1>
           <h4>Design and creation website for the Bu Openhouse.</h4>
@@ -177,7 +177,7 @@ function BuOpenhousePage() {
       </section>
 
       {/* FOOTER */}
-      <NavBarItem item="#home" />
+      <NavBarItem item="#bu-open-house" />
     </>
   );
 }
