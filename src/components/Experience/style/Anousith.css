@@ -339,18 +339,8 @@ a { text-decoration: none; }
   align-items: center;
   gap: 2rem;
 }
-.ans-about-img-wrap {
-  background: var(--ans-gray-lt);
-  border: 1px solid var(--ans-gray-bd);
-  border-radius: var(--ans-rad-lg);
-  padding: 3.2rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--ans-shadow);
-}
-.ans-about-img-wrap img { width: 160px; height: auto; object-fit: contain; }
+ 
+.ans-about-img-wrap img { width: 350; height: auto; object-fit: contain;box-shadow: var(--ans-shadow);border-radius: var(--ans-rad-lg); }
 .ans-next-img { height: 28px; width: auto; object-fit: contain; opacity: 0.6; }
 
 .ans-about-body p {

@@ -3,8 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useLanguage } from "../../context/LanguageContext";
 import { NavBarItem } from "../../helper";
 
-/* import cert1 from "../../assets/imageEx/Certificate_Bu_anousith.pdf";
-import cert2 from "../../assets/imageEx/Certificate_anousith.pdf"; */
+import img_profile from "../../assets/image/anousith_profile.png";
 
 import en from "../../locales/en.json";
 import th from "../../locales/th.json";
@@ -168,8 +167,8 @@ function Anousith() {
       <section className="ans-section ans-white">
         <div className="ans-container ans-about-grid">
           <div className="ans-about-visual">
-            <div className="ans-about-img-wrap">
-              <img src={ANS_LOGO} alt="Anousith Express" />
+            <div className="ans-about-img-wrap ">
+              <img src={img_profile} alt="Anousith Express" />
             </div>
             <img src={NEXT_LOGO} alt="Next Day" className="ans-next-img" />
           </div>
