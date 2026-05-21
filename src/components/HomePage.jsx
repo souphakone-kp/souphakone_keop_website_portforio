@@ -62,7 +62,7 @@ function HomePage() {
       if (window.Typed) {
         typedInstance = new window.Typed(".multiple-text", {
           strings: [
-            "Souphakone Keopheth",
+            "Souphakone Youjalearn",
             "Software Developer",
             "Data Analyst",
             "UI/UX Enthusiast",
@@ -217,7 +217,7 @@ function HomePage() {
         </div>
 
         <div className="home-image">
-          <img src={profiledp} alt="Souphakone Keopheth" />
+          <img src={profiledp} alt="Souphakone Youjalearn" />
         </div>
       </section>
 
