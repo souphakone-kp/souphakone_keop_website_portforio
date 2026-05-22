@@ -4,7 +4,7 @@ import { useLanguage } from "../../context/LanguageContext";
 import { NavBarItem } from "../../helper";
 
 import img_profile from "../../assets/image/anousith_profile.png";
-
+import cert1 from "../../assets/imageEx/anousith_work_cert.pdf";
 import en from "../../locales/en.json";
 import th from "../../locales/th.json";
 import lo from "../../locales/lo.json";
@@ -234,7 +234,7 @@ function Anousith() {
       </section>
 
       {/* ── CERTIFICATES ───────────────────────────────────── */}
-{/*       <section className="ans-section ans-gray">
+      <section className="ans-section ans-gray">
         <div className="ans-container">
           <div className="ans-label-tag">{a.certificates.label}</div>
           <h2 className="ans-section-title">
@@ -243,7 +243,6 @@ function Anousith() {
           <div className="ans-cert-grid">
             {[
               { href: cert1, title: a.certificates.cert1Title, sub: a.certificates.cert1Sub },
-              { href: cert2, title: a.certificates.cert2Title, sub: a.certificates.cert2Sub },
             ].map((c, i) => (
               <a key={i} href={c.href} target="_blank" rel="noopener noreferrer" className="ans-cert-card">
                 <div className="ans-cert-left">
@@ -259,7 +258,7 @@ function Anousith() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* ── CTA ────────────────────────────────────────────── */}
       <section className="ans-cta">
