@@ -73,7 +73,7 @@ export const skills = [
     name: "Golang",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
     descKey: "golang",
-    cats: ["Learning", "Programming", "Backend"],
+    cats: ["Programming", "Backend", "Learning"],
   },
 
   // ===== Frontend =====
@@ -99,7 +99,13 @@ export const skills = [
     name: "React",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     descKey: "react",
-    cats: ["Frontend"],
+    cats: ["Frontend", "Framework"],
+  },
+  {
+    name: "Next.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    descKey: "nextjs",
+    cats: ["Frontend", "Framework"],
   },
 
   // ===== Backend =====
@@ -113,13 +119,13 @@ export const skills = [
     name: "Express.js",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
     descKey: "express",
-    cats: ["Backend"],
+    cats: ["Backend", "Framework"],
   },
   {
     name: "Apollo GraphQL",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apollographql/apollographql-original.svg",
     descKey: "apollo",
-    cats: ["Backend"],
+    cats: ["Backend", "Framework"],
   },
 
   // ===== Database =====
@@ -145,13 +151,13 @@ export const skills = [
     name: "Firebase",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
     descKey: "firebase",
-    cats: ["Database"],
+    cats: ["Database", "Backend"],
   },
   {
     name: "Supabase",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
     descKey: "supabase",
-    cats: ["Learning", "Database", "Backend"],
+    cats: ["Database", "Backend", "Learning"],
   },
 
   // ===== Data =====
