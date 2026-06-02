@@ -69,6 +69,12 @@ export const skills = [
     descKey: "typescript",
     cats: ["Programming", "Frontend"],
   },
+  {
+    name: "Golang",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    descKey: "golang",
+    cats: ["Learning", "Programming", "Backend"],
+  },
 
   // ===== Frontend =====
   {
@@ -134,6 +140,18 @@ export const skills = [
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dbeaver/dbeaver-original.svg",
     descKey: "dbeaver",
     cats: ["Database", "Tools"],
+  },
+  {
+    name: "Firebase",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    descKey: "firebase",
+    cats: ["Database"],
+  },
+  {
+    name: "Supabase",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg",
+    descKey: "supabase",
+    cats: ["Learning", "Database", "Backend"],
   },
 
   // ===== Data =====
